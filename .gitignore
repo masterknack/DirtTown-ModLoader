@@ -1,0 +1,21 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated builds and release bundles
+build/
+dist/
+
+# Runtime files
+modloader/
+logs/
+*.log
+modloader.lock
+modloader-session.json
+recovery-state.json
+*.pack
+*.pack.*
+data/
+mods/
